@@ -3,7 +3,7 @@
 Welcome to Brew-Stache the database for inputting new drinks and bars for users to see
 
 Contributers
-Julian Montejano Scott Allen Anna Park Dagoberto Guerra Richard Clark
+Julian Montejano Scott Allan Anna Park Dagoberto Guerra Richard Clark
 
 Website
 The are two options for the end user to use when it comes to using Brew-Stache
