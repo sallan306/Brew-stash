@@ -29,6 +29,14 @@
   }
  #backToAdminMe {
    background: #023446;
+   width: 40%;
+   height: 50px;
+   border-radius: 10px;
+   position: relative;
+   right: 30%;
+   color: #DCD8AD;
+   font-family: 'Oswald', sans-serif;
+   font-size: 30px;
  }
   #logout{
     position: absolute;
@@ -118,6 +126,8 @@
     background-color: #023446;
     padding: 10px;
     margin-left: 30%;
+    border-radius: 10px;
+    margin-top: 10px;
   }
 
   /*create account page */
@@ -149,13 +159,14 @@
   #submitdrinks{
     font-family: 'Oswald', sans-serif;
     box-sizing: border-box;
-    height:50px;
-    width: 100%;
+    height: 30px;
+    width: 15%;
     margin: 10px auto;
-    font-size: 20px;
+    font-size: 15px;
     color: #DCD8AD;
     background-color: #023446;
-    padding: 10px;
+    /* padding: 10px; */
+    margin-right: 85%;
   }
    #addDrink {
     width: 50%;
@@ -187,8 +198,8 @@
 
   #createAccountSubmit {
     background: #023446;
-    width: 20%;
-    margin-left: 40%;
+    width: 15%;
+    /* margin-left: 40%; */
   }
   #loginSubmit {
     background: #023446;
@@ -199,13 +210,13 @@
   #submitbrewery{
     font-family: 'Oswald', sans-serif;
     box-sizing: border-box;
-    height:50px;
-    width: 100%;
+    height: 30px;
+    width: 15%;
     margin: 10px auto;
-    font-size: 20px;
+    font-size: 15px;
     color: #DCD8AD;
     background-color: #023446;
-    padding: 10px;
+    margin-right: 85%;
   }
  #breweryList {
    width: 60%;
@@ -306,7 +317,6 @@
     box-sizing: border-box;
     height: 50px;
     width: 40%;
-    border-left: 20%;
     text-align: center;
     margin: 0 auto;
     font-size: 20px;
@@ -314,6 +324,9 @@
     background-color: #023446;
     padding: 10px;
     margin-left: 30%;
+    border-radius: 11px;
+    border: 0;
+    /* border-collapse: separate; */
   }
 
   /* /createaccount styles */
@@ -341,20 +354,19 @@
   }
  #createAccountForm {
    width: 50%;
-   margin-left: 26%;
+   margin-left: 25%;
  }
   /* /brewery styles */
   #breweryContainer{
     background: #ECE3C5;
     color: #023446;
-    width: 40%;
+    width: 60%;
     margin-top: 10px;
     overflow: scroll;
     height: 300px;
     border-radius: 10px;
     font-size: 15px;
-    /* position: relative; */
-    margin-left: 30%;
+    margin-left: 20%;
   }
   #googleMap {
     margin-bottom: 10px;
@@ -372,9 +384,13 @@
     /* left: 25%; */
     bottom: 0%;
     background-color: #023446;
-    color: #DCD8AD;
+    /* color: #DCD8AD; */
     margin-left: 5%;
     margin-top: 2%;
+    border-radius: 10px;
+    color: #DCD8AD;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
   }
   /* /points styles */
   #pointsContainer {
