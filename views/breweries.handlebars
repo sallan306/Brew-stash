@@ -9,19 +9,20 @@
 	<div id="mySidenav" class="sidenav">
         <span id ="navbar2" style="font-size:30px;cursor:pointer;" onclick="closeNav()">&#9776;<p id ="headerWords">BREW-STASH</p></span>
         <img id="logoNav" src="/images/logonav.png" alt="nav logo">
-        <a href="/login">Log In</a>
-        <a href="/createaccount">Create Account</a>
-        <a href="/">Home Page</a>
+        <div class="navButtonsContainer">
+          <button id="navLoginButton">LOG IN</button>
+          <button id="navCreateAccountButton">CREATE ACCOUNT</button>
+          <button id="navHomePageButton">HOME PAGE</button>
+        </div>
 	</div>
 
 
 
 
   <div class="container col-10" >
-        <img id="googleMap" class="img-fluid" src="/images/mapAustin.gif" alt="logo">
         <div id="breweryContainer">
           <h1>Local Breweries</h1>
-          <ul>
+          <ul class="breweryUnorderdList">
             {{#each brewery}}
               {{> breweries/view-block}}
             {{/each}}

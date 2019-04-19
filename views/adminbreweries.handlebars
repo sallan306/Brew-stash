@@ -12,8 +12,10 @@
 	<div id="mySidenav" class="sidenav">
         <span id ="navbar2" style="font-size:30px;cursor:pointer;" onclick="closeNav()">&#9776;<p id ="headerWords">BREW-STASH</p></span>
         <img id="logoNav" src="/images/logonav.png" alt="nav logo">
-        <a href="/admin/me">Your Breweries</a>
-        <a href="/logout">Log out</a>
+        <div class="navButtonsContainer2">
+          <button id="navBreweriesButton">YOUR BREWERIES</button>
+          <button id="navLogoutButton">LOG OUT</button>
+        </div>
 	</div>
 
 
@@ -52,3 +54,4 @@
 
 <script src="/js/inputBrewery.js"></script>
 <script src="/js/accountOptions.js"></script>
+<script src="/js/index.js"></script>

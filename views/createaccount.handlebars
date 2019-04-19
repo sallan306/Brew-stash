@@ -1,9 +1,20 @@
 <div id="home">
 
 
-	<span id ="navbar1" style="font-size:30px;cursor:pointer;">
-    <p id ="headerWords">BREW-STASH</p>
-    <br>
+	<span id ="navbar1" style="font-size:30px;cursor:pointer;display:block;" onclick="openNav()">&#9776;
+        <p id ="headerWords">BREW-STASH</p>
+    </span>
+
+
+	<div id="mySidenav" class="sidenav">
+        <span id ="navbar2" style="font-size:30px;cursor:pointer;" onclick="closeNav()">&#9776;<p id ="headerWords">BREW-STASH</p></span>
+        <img id="logoNav" src="/images/logonav.png" alt="nav logo">
+        <div class="navButtonsContainer">
+          <button id="navLoginButton">LOG IN</button>
+          <button id="navCreateAccountButton">CREATE ACCOUNT</button>
+          <button id="navHomePageButton">HOME PAGE</button>
+        </div>
+	</div>
     
 
 
@@ -12,7 +23,6 @@
         <img id="logo" class="img-fluid" src="/images/logowide.png" alt="logo">
         <form id="createAccountForm" style="text-align: center" class="clearfix mb-4" action="/breweries">
           <div class="form-group">
-            <span>CREATE ACCOUNT</span>
             <label id="creatAccountUser"for="example-text">Username</label>
             <input type="text" id="creatAccountUserName" class="form-control" aria-describedby="example-text" placeholder="Create Username">
           </div>
@@ -23,7 +33,7 @@
           <button id="createAccountSubmit" class="btn btn-primary float-left">Create Account</button>
         </form>
         <br>
-
+        <a href="/login" class="btn btn-secondary btn-lg btn-block" id = "backButton">LOGIN</a>
         <a href="/" class="btn btn-secondary btn-lg btn-block" id = "backButton">GO BACK</a>
       </div>
   </div>
@@ -31,3 +41,4 @@
 
 {{!-- <script src="/js/index.js"></script> --}}
 <script src="/js/createAccount.js"></script>
+<script src="/js/index.js"></script>
