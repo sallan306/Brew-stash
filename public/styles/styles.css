@@ -702,7 +702,8 @@
     color: #DCD8AD;
     background-color: #023446;
     padding: 10px;
-
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
   }
 
   /*create account page */
