@@ -1,5 +1,5 @@
 {
-  "name": "project2team7",
+  "name": "brew-stash",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -37,13 +37,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jjmonte20/project2team7.git"
+    "url": "git+https://github.com/sallan306/Brew-stash.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jjmonte20/project2team7/issues"
+    "url": "https://github.com/sallan306/Brew-stash/issues"
   },
-  "homepage": "https://github.com/jjmonte20/project2team7#readme"
+  "homepage": "https://github.com/sallan306/Brew-stash#readme"
 }
